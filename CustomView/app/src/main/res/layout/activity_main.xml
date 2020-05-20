@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="#18a8a9">
@@ -11,7 +12,12 @@
         android:id="@+id/inputNumberView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        app:max = "30"
+        app:min = "-30"
+        app:step = "7"
+        app:btnBackground = "@drawable/shape_num_btn_bg_right"
+        app:defaultValue = "5" />
 
 
 </LinearLayout>
