@@ -19,5 +19,18 @@
         app:btnBackground = "@drawable/shape_num_btn_bg_right"
         app:defaultValue = "5" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:onClick="toLoginPage"/>
+
+    <com.song.customview.lagou.PieImageView
+        android:background="#7E7E7E"
+        android:id="@+id/pieImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 
 </LinearLayout>
